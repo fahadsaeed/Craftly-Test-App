@@ -1,0 +1,11 @@
+.header{
+    .logo{
+      width: 120px;
+    }
+  button{
+    min-width: 107px;
+    &.sign-up{
+      color: #ffffff;
+    }
+  }
+}

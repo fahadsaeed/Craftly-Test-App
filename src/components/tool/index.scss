@@ -1,0 +1,29 @@
+.tool{
+  border: 1px solid #EEEEEE;
+  border-radius: 15px;
+  width: calc(20% - 30px);
+  text-decoration: none;
+  .icon{
+    width: 55px;
+    height: 55px;
+    margin-bottom: 40px;
+    img{
+      max-width: 55px;
+    }
+  }
+  .title{
+    font-size: 24px;
+    word-break: break-word;
+    color: #000000;
+
+  }
+  &.active{
+    background: linear-gradient(285.83deg, #8878F9 -34.95%, #6C5AFB 92.08%);
+    box-shadow: 0 34px 35px -23.4967px rgba(95, 103, 117, 0.25);
+    .title{
+      color: #ffffff;
+    }
+
+
+  }
+}
